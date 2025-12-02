@@ -5,7 +5,10 @@ description = "AI Learning"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "jupyterlab>=4.5.0",
+    "notebook>=7.5.0",
     "numpy>=2.3.5",
     "openai>=2.8.1",
     "pandas>=2.3.3",
+    "voila>=0.5.11",
 ]
