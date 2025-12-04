@@ -3,13 +3,18 @@ name = "ai"
 version = "0.1.0"
 description = "AI Learning"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.13"
 dependencies = [
-    "dotenv>=0.9.9",
     "jupyterlab>=4.5.0",
     "notebook>=7.5.0",
     "numpy>=2.3.5",
     "openai>=2.8.1",
     "pandas>=2.3.3",
+    "semantic-kernel>=1.36.0",
     "voila>=0.5.11",
+]
+
+[tool.uv.workspace]
+members = [
+    "myproj",
 ]
