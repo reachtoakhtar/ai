@@ -21,4 +21,3 @@ print("Numpy took: ", (time.time()-start)*1000)
 
 a = np.array([2, 'howru', 3.5])
 print(a.shape)
-
